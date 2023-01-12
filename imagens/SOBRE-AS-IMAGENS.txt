@@ -1,0 +1,1 @@
+Prefencialmente, as imagens que estarão no slider devem ter uma dimensão de 1200x600 para se encaixarem bem na tela.

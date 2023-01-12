@@ -1,0 +1,202 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../fontes/hercmorstudio.ttf");
+}
+
+
+* { 
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url(../imagens/background-branco2.jpg);
+	background-size: 100%;
+	font-family: 'Open Sans';
+}
+
+.nav-tabs {
+	width: 600px;
+	height: 400px;
+	margin: 30px auto;
+	background-color: transparent;
+	position: relative;
+}
+
+.nav-tabs ul {
+	list-style: none;
+}
+
+.nav-tabs ul li {
+	float: left;
+}
+
+.nav-tabs label {
+	width: 100px;
+	padding: 25px;
+	background-color: transparent;
+	display: block;
+	color: #333;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.nav-tabs label:hover {
+	color: #4FBA6F;
+	transition: .5s;
+}
+
+.rd-tabs:checked ~ label {
+	color: #fff;
+	background-color: #4FBA6F;
+	text-shadow: 0px 2px 6px rgba(0,0,0,.9);
+}
+
+.rd-tabs {
+	margin: 10px;
+	display: none;
+}
+
+.content {
+	margin-top: 10px;
+	border-top: 5px solid #4FBA6F;
+	background-color: transparent;
+	display: none;
+	position: absolute;
+	height: 320px;
+	width: 600px;
+	left: 0;
+	text-shadow: 0px 2px 6px rgba(0,0,0,.2);
+}
+
+.rd-tabs:checked ~ .content {
+	display: block;
+}
+
+.content article {
+	padding: 10px;
+}
+
+/* div parceiros */
+.titulo-parceiros {
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	height: 100px;
+	width: 100%;
+	background-color: #4FBA6F;
+	color: #fff;
+	text-shadow: 2px 0px 6px rgba(0,0,0,.3);
+}
+
+#parceiros {
+	height: 400px;
+	width: 100%;
+}
+
+#gnomon {
+	float: left;
+	height: 400px;
+	width: 50%;
+	background-color: #fff;
+	text-align: center;
+}
+
+#gnomon h2 {
+	margin: 10px auto 25px;
+}
+
+#gnomon p {
+	margin: 10px 20px;
+}
+
+#gnomon-logo {
+	display: block;
+	margin: 40px auto;
+	height: 90px;
+	width: 300px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+#axis {
+	float: right;
+	height: 400px;
+	width: 50%;
+	background-color: #fff;
+	text-align: center;
+}
+
+#axis h2 {
+	margin: 10px auto 25px;
+}
+
+#axis p {
+	margin: 10px 20px;
+}
+
+#axis-logo {
+	display: block;
+	margin: 40px auto;
+	height: 90px;
+	width: 300px;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+
+/* div parceiros */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

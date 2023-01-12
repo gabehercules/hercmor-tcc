@@ -1,0 +1,241 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#conteudo {
+	height: 1000px;
+	width: 100%;
+}
+
+#conteudo-principal {
+	margin: 0px;
+	height: 1000px;
+	width: 60%;
+	float: left;
+}
+
+#conteudo-secundario {
+	margin: 0px;
+	height: 1000px;
+	width: 40%;
+	float: right;
+	background-color: #fafafa;
+}
+
+#conteudo-secundario h2 {
+	font-family: 'Poppins', sans-serif;
+	color: #303030;
+	margin: 10px 10px;
+}
+
+#titulo {
+	float: left;
+	width: 100%;
+	background-color: rgba(0,0,0,.4);
+	height: 40px;
+}
+
+#titulo h2 {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+#formulario {
+	width: 100%;
+	margin: 10px auto;
+	background-color: #fff;
+}
+
+#formulario p {
+	margin-top: 10px;
+	font-size: 12pt;
+	margin: 10px 40px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.header-form {
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+.input1 {
+	font-size: 13pt;
+	font-family: 'Arial', sans-serif;
+	font-weight: 5px;
+	color: #303030;
+	height: 25px;
+	width: 90%;
+	display: block;
+	margin: 25px auto;
+	border: 1px solid rgba(0,0,0,.4);
+	background-color: #fafafa;
+	border-radius: 3px;
+	box-shadow: 1px 0px 4px rgba(0,0,0,.2);
+}
+
+.textarea {
+	font-size: 13pt;
+	font-family: 'Arial', sans-serif;
+	font-weight: 5px;
+	color: #303030;
+	background-color: #fafafa;
+	border-radius: 3px;
+	box-shadow: 1px 0px 4px rgba(0,0,0,.2);
+	height: 100px;
+	width: 90%;
+	display: block;
+	margin: 25px auto;
+}
+
+.button {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17pt;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 1px 0 3px rgba(0,0,0,.3);
+	height: 40px;
+	width: 150px;
+	margin-left: 620px;
+	background: linear-gradient(to right, #303030 2px, #555);
+	cursor: pointer;
+}
+
+/* Discord Área */
+
+#discord {
+	height: 500px;
+	width: 100%;
+}
+
+#lado-esquerdo {
+	height: 500px;
+	width: 60%;
+	float: left;
+	background-image: url(../imagens/discord-background.png);
+	background-size: 100%;
+}
+
+#lado-direito {
+	background-color: #1d1f23;
+	float: right;
+	height: 500px;
+	width: 40%;
+}
+
+#lado-esquerdo h1 {
+	padding-top: 105px ;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	text-shadow: 2px 0px 7px rgba(222,222,222,.3);
+	text-align: center;
+}
+
+iframe {
+	display: block;
+	margin: 25px auto;
+}
+/* Discord Área */
+
+
+
+/*#formulario h4 {
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	margin: 15px auto;
+	text-align: center;
+	font-weight: 10;
+}*/
+
+/* formatação do conteúdo */
+
+
+
+/* formatação do conteúdo 
+
+.formBox {
+	margin: 80px;
+	padding: 50px;
+}
+
+h1 {
+	background-color: #333;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px;
+	font-family: 'Open Sans'
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	margin-bottom: 50px !important;
+	text-transform: none;
+	font-size: 48px;
+	color: white;
+}
+
+.inputBox {
+	position: relative;
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+
+.input {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 24px;
+	border-bottom: 2px solid rgba(0,0,0,.4);
+}
+.inputText {
+	position: absolute;
+	line-height: 50px;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	transition: .5s;
+	opacity: .5;
+}
+
+.focus .inputText {
+	transform: translateY(-30px);
+	font-size: 18px;
+	opacity: .5;
+	color: #111;
+}
+
+textarea {
+	height: 100px !important;
+}
+
+.button {
+	box-shadow: 0px 10px 10px 0px rgba(10,10,10,.2);
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	width: 100%;
+	background: #111;
+	color: #fff;
+	font-family: 'Open Sans';
+	outline: none;
+	height: 40px;
+}
+
+.coluna-contato {
+	border-top-right-radius: 45px;
+	border-top-left-radius: 45px; 
+	background-color: white;
+	opacity: .8;
+}
+
+.col-sm-12 h1 {
+	font-family: 'Open Sans';
+}*/

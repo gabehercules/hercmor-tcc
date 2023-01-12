@@ -1,0 +1,454 @@
+@charset="UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../fontes/hercmorstudio.ttf");
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #555555;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #bbb;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #555;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.5);
+}
+
+/* formataçõa do menu */
+* {
+	margin:0px;
+	padding:0px;
+}
+
+section#rede-menu {
+	margin: 0px auto;
+	height: 0px;
+	width: 100%;
+}
+
+.menu {
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	height: 75px;
+	background-color:#303030;
+	font-size: 10pt;
+}
+
+.menu ul {
+	list-style: none;	
+}
+
+.menu ul li {
+	width: 150px;
+	float: left;
+	position: relative;
+	z-index: 99999;
+
+}
+
+.menu a.abas{
+	padding: 27.5px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: #303030;
+	color: #fff;
+}
+
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu ul li:hover ul{
+	visibility: visible;
+	float: right;
+}
+
+.menu a:hover{
+	transform: translateY(-5px);
+	transition: 1s;
+	color: #eee;
+}
+
+.menu ul ul li{
+	float: none;
+}
+
+.menu #logotopo {
+	width: 69px;
+	height: 69px;
+	margin-top: auto;
+	margin-left: 30px;
+}
+/* Formatação do menu*/
+
+/* formataçõa do menu de redes sociais */
+
+.rede {
+	margin-top: 18px;
+	float: right;
+	margin-right: 40px;
+	transition: all 0.4s ease-out;
+}
+
+.rede:hover {
+	cursor: pointer;
+	transform: translateY(-5px);
+}
+
+#youtube:hover {
+	border-bottom: 2px solid #FF2200;
+}
+
+#facebook:hover {
+	border-bottom: 2px solid #3b5998;	
+}
+
+#twitter:hover {
+	border-bottom: 2px solid #00aced;
+}
+
+.icone {
+	margin: 0px auto;
+	padding: 10px;
+	width: 20px;
+}
+
+/* formataçõa do menu de redes sociais */
+
+
+.conteudo-primario {
+	margin: 0;
+	padding: 0;
+	height: 500px;
+	width: 100%;
+	background-color: #fff;
+}
+
+section#logohercmor img {
+	right: 330px;
+	width: 330px;
+}
+
+.conteudo-primario h1 {
+	margin: 15px auto;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #111;
+}
+
+.conteudo-primario p {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	color: #111;
+	font-size: 12pt;
+	padding: 10px 30px;
+}
+
+/* div membros da equipe */
+
+
+#fundadores {
+	background-color: #303030;
+	padding: 0px;
+	margin: 0px;
+}
+
+.avatar {
+	margin: 10px;
+}
+
+#fundadores h2 {
+	margin-left: 0 auto; 
+	font-family: 'Poppins';
+	color: #fff;
+}
+
+#fundadores img {
+	display: inline-block;
+    border-radius: 50%;
+    margin: 50px 50px 50px 50px;
+}
+
+
+div#alex {
+	font-family: 'Poppins';
+	display: inline-block;
+	color: transparent;
+	border-radius: 50%;
+	height: 300px;
+	width: 300px;
+	-webkit-transition: all .6s ease-out;
+}
+
+
+div#alex:hover {
+	color: #fff;
+	transition: 1.2s;
+}
+
+
+ div#alex:hover img {
+	transform: translateY(-20px);
+	background-color: transparent;
+	transition: 1.5s;
+}	
+
+ div#gabriel {
+	font-family: 'Poppins';
+	display: inline-block;
+	border-radius: 50%;
+	color: transparent;
+	height: 300px;
+	width: 300px;
+	-webkit-transition: all .6s ease-out;
+}
+
+ div#gabriel:hover {
+	color: #fff;
+	transition: 1.2s;
+}
+
+ div#gabriel:hover img {
+	transform: translateY(-20px);
+	background-color: transparent;
+	transition: 1.5s;
+}
+
+ div#joede {
+	font-family: 'Poppins';
+	display: inline-block;
+	border-radius: 50%;
+	color: transparent;
+	height: 300px;
+	width: 300px;
+	-webkit-transition: all .6s ease-out;
+}
+
+ div#joede:hover {
+	color: #fff;
+	transition: 1.2s;
+}
+
+ div#joede:hover img {
+  transform: translateY(-20px);
+  background-color: transparent;
+  transition: 1.5s;
+}
+
+/* div membros da equipe */
+
+
+/* Botão back to top */
+#myBtn {
+	height: 50px;
+	width: 50px;
+  	display: none;
+  	position: fixed;
+  	bottom: 40px;
+  	right: 30px;
+  	z-index: 99;
+  	border: none;
+  	outline: none;
+  	background-color: transparent;
+  	cursor: pointer;
+  	border-radius: 50%;
+}
+
+#myBtn img {
+	margin: 2px auto;
+	height: 45px;
+	width: 45px;
+}
+
+#myBtn:hover {
+	transform: translateY(-5px);
+	background-color: #4FBA6F;
+	color: #fff;
+	transition: all 0.4s ease-out;
+}
+/* Botão back to top */
+
+
+
+/* div nossos jogos */
+
+.jogos {
+	text-align: center;
+	background-color: white;
+	height: 900px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.jogos h1 {
+	text-align: center;
+	margin: 10px 5px auto;
+}
+
+.jogos h5 {
+	margin: 0px 0px 50px auto;
+}
+
+#jogo1 {
+	border-radius: 50px;
+	display: inline-block;
+	margin: 10px auto;
+	height: 700px;
+	width: 450px;
+	background-color: #fbfbfb;
+	box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+	color: #333;
+}
+
+#jogo1 h2 {
+	margin: 15px auto;
+}
+
+#jogo1 p {
+	margin: 5px auto;
+	padding: 10px;
+}
+
+#jogo1 img {
+	margin: 15px auto;
+	height: 200px;
+	width: 300px;
+}
+
+#jogo1 img#android {
+	height: 64px;
+	width: 64px;
+}
+
+#jogo1 img#ios {
+	height: 64px;
+	width: 64px;
+}
+
+#jogo2 {
+	border-radius: 50px;
+	display: inline-block;
+	margin: 10px auto;
+	height: 700px;
+	width: 450px;
+	background-color: #fbfbfb;
+	box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+	color: #333;
+}
+
+#jogo2 h2 {
+	margin: 15px auto;
+}
+
+#jogo2 p {
+	margin: 5px auto;
+	padding: 10px;
+}
+
+#jogo2 img {
+	margin: 15px auto;
+	height: 200px;
+	width: 300px;
+}
+
+#jogo2 img#xbox {
+	height: 64px;
+	width: 64px;
+}
+
+#jogo2 img#ps4 {
+	height: 64px;
+	width: 69px;
+}
+
+#jogo2 img#pc {
+	height: 64px;
+	width: 64px;
+}
+
+img.plataformas {
+	padding: 40px;
+}
+/* div nossos jogos */
+
+
+/* Footer */
+footer {
+	margin: 0;
+	padding: 0;
+	background-color: #303030;
+	height: 140px;
+}
+
+.rodape #copyright h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 10pt;
+	text-align: center;
+	padding: 15px;
+}
+
+#rede-footer {
+	margin-right: 39%;
+}
+
+#rede-footer .rede img {
+	background-color: transparent;
+	border-radius: 50px;
+	border: solid 2px #fff;
+}
+
+.rodape #facebook1 img:hover {
+	border: solid 2px #3b5998;
+}
+
+.rodape #twitter1 img:hover {
+	border: solid 2px #00aced;
+}
+
+.rodape #youtube1 img:hover {
+	border: solid 2px #FF2200;
+}
+
+#quebra{
+	clear:both;
+}
+
+/* Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
